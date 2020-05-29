@@ -1,0 +1,24 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<title> Remove non-numeric </title> 
+	</head> 
+		
+	<body > 
+		
+		
+		<button onclick = "RemoveNonNumeric()"> 
+			ClickHere 
+		</button> 
+		
+		<input type="text" value="abc573" id = "AVI_D" ></p> 
+		
+		<script> 
+			var down = document.getElementById("AVI_D"); 
+			
+			function RemoveNonNumeric() { 
+				document.getElementById('AVI_D').value = document.getElementById('AVI_D').value.replace(/\D/g,''); 
+			} 
+		</script> 
+	</body> 
+</html>					 
